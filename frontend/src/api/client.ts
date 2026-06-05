@@ -1,5 +1,5 @@
 // base URL for all API calls — can be overridden with a .env file
-const API_BASE = import.meta.env.VITE_API_URL ?? "http://localhost:5000/api";
+const API_BASE =  (import.meta as any).env.VITE_API_URL ?? "http://localhost:5000/api";
 
 // attach the user id header so the backend knows who is making the request
 function getHeaders(): HeadersInit {
