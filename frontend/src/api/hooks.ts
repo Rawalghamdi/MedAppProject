@@ -1,7 +1,6 @@
 import { useQuery, useMutation, useQueryClient } from "@tanstack/react-query";
 import { apiFetch } from "./client";
-import type { Doctor, Appointment, DashboardStats, AuthResponse, User } from "@/types/api";
-
+import type { Doctor, Appointment, DashboardStats, AuthResponse } from "@/types/api";
 // React Query hooks for every API endpoint.
 // useQuery = fetching data, useMutation = creating/updating/deleting
 
