@@ -2,6 +2,8 @@
 
 A full-stack clinic appointment booking system for Saudi Arabia. Patients can register, browse doctors, and book appointments. Doctors manage their schedule. Admins control everything from one dashboard.
 
+##Live Site: https://med-app-project-psb62fuje-rawans-projects-94fc6a49.vercel.app/
+
 Built with **ASP.NET Core 8** (backend) and **React + TypeScript** (frontend).
 
 ---
